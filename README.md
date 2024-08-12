@@ -32,6 +32,8 @@ Then put those 2 files on the "**models**" folder
 We highly recommend to work with a  `venv`  to avoid issues.
 ```
 pip install -r requirements.txt
+or
+pip3 install -r requirements.txt
 ```
 ##### DONE!!! If you dont have any GPU, You should be able to run roop using `python run.py` command. Keep in mind that while running the program for first time, it will download some models which can take time depending on your network connection.
 
