@@ -61,15 +61,15 @@ python run.py --execution-provider cuda
 1.  Install dependencies:
 
 ```
-pip uninstall onnxruntime onnxruntime-silicon
-pip install onnxruntime-silicon==1.13.1
+pip3 uninstall onnxruntime onnxruntime-silicon
+pip3 install onnxruntime-silicon==1.13.1
 
 ```
 
 2.  Usage in case the provider is available:
 
 ```
-python run.py --execution-provider coreml
+python3 run.py --execution-provider coreml
 
 ```
 
